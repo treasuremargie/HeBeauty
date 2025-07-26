@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.hero-donate {
+.products-hero {
   background-color: #e86c2f;
   color: white;
   text-align: center;
@@ -32,62 +32,46 @@ body {
   color: #e86c2f;
 }
 
-main {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 1rem;
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-.donate-options {
+.products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.donation-method {
+.product-card {
   background-color: white;
   border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
-.donation-method h3 {
-  color: #3d2e26;
-  margin-bottom: 0.5rem;
-}
-
-.donation-method p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.donation-method button {
-  background-color: #e86c2f;
-  color: white;
-  border: none;
-  padding: 0.6rem 1.2rem;
+.product-img {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
   border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+  background-position: center;
 }
 
-.donation-method button:hover {
-  background-color: #cc4f1d;
+/* Real product image links */
+.moisturizer {
+  background-image: url('moisturizer.png');
 }
 
-.payment-info a {
-  color: #e86c2f;
-  text-decoration: none;
-  font-weight: bold;
+.beard {
+  background-image: url('beardoil.png');
 }
-
-.payment-info a:hover {
-  text-decoration: underline;
+.cleanser {
+  background-image: url('facewash.png');
+}
+.fragrance {
+  background-image:url('fragrance.png');
 }
 
 footer {
