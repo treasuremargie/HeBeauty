@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI',sans-serif;
+    background-color: #fff9f4;
+    color: #3d2e26;
+    margin: 0;
+    padding: 0;
+}
+.hero-about{
+    background-color: #e86c2f;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: #fff0e5;
+}
+.nav a{
+    text-decoration: none;
+    color: #3d2e26;
+    font-weight: bold;
+}
+.nav a.active,.nav a:hover{
+    color: #e86c2f;
+}
+main{
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+section{
+    margin-top: 2rem;
+}
+h2{
+    color: 33d2e26;
+    margin-bottom: 0.5rem;
+}
+ul{
+    padding-left: 1.5rem;
+}
+.team-image{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff0e5;
+    margin-top: 2rem;
+}
